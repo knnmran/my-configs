@@ -63,4 +63,4 @@ let-env NU_PLUGIN_DIRS = [
 #
 #
 
-let-env PATH = ($env.PATH | split row (char esep) | append ['~/.local/bin/nvim-macos/bin','~/.local/bin','~/.cargo/bin','/Applications/Visual Studio Code.app/Contents/Resources/app/bin', '/opt/homebrew/bin'])
+let-env PATH = ($env.PATH | split row (char esep) | append ['~/.local/bin/nvim-macos/bin','~/.local/bin','~/.cargo/bin','/Applications/Visual Studio Code.app/Contents/Resources/app/bin'])

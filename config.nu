@@ -1,3 +1,7 @@
+let-env config = {
+    show_banner: false
+}
+
 source ~/.cache/starship/init.nu
 
 alias fd = start .
@@ -24,8 +28,8 @@ alias nc = lvim "~/Library/Application Support/nushell"
 alias sc = lvim ~/.config/starship.toml
 alias ac = lvim ~/.config/alacritty/alacritty.yml
 
-let-env config = {
-    show_banner: false
-}
+alias gu = gitui
+
+
 
 
