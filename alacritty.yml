@@ -861,7 +861,7 @@ key_bindings:
   - { key: Q, mods: Command, action: Quit }
   #- { key: W,              mods: Command,                    action: Quit                  }
   - { key: N, mods: Command, action: CreateNewWindow }
-  - { key: F, mods: Shift, action: ToggleSimpleFullscreen }
+  - { key: F, mods: Control, action: ToggleSimpleFullscreen }
 #- { key: F,              mods: Command, mode: ~Search,     action: SearchForward         }
 #- { key: B,              mods: Command, mode: ~Search,     action: SearchBackward        }
 
